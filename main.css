@@ -1,0 +1,50 @@
+*{
+	box-sizing: border-box;
+	padding: 0px;
+	margin:0px;
+}
+.contenedor{
+	display: table;
+}
+.row {
+	display: table-row;
+}
+.cell{
+	display: table-cell;
+}
+.celeste{
+	background: #7CC2FD;
+}
+.verde{
+	background: #7AF0DC;
+}
+.anaranjado{
+	background: #FCB77B;
+}
+.rosado{
+	background: #FB959E;
+}
+.negro {
+	background: #000;
+	padding-top: 70px;
+	display: none;
+	font-family: Verdana;
+	font-size: 20px;
+}
+.cell, .negro {
+	width: 150px;
+	height: 150px;
+}
+.cell:hover + .negro{
+	display: block;
+}
+.t-celeste {
+	color: #7CC2FD
+}
+.t-verde {
+	color: #7AF0DC
+
+}
+.t-anaranjado {
+	color: #FCB77B;
+}
